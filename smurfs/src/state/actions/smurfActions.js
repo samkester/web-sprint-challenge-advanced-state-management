@@ -14,11 +14,11 @@ export const getSmurfs = () => {
 
         axios.get("http://localhost:3333/smurfs")
         .then(response => {
-            console.log(response)
+            //console.log(response)
             dispatch({type: GET_SUCCESS, data: response.data})
         })
         .catch(error => {
-            console.log(error)
+            //console.log(error)
             dispatch({type: GET_FAILURE, data: error})
         })
     }
@@ -30,11 +30,11 @@ export const postSmurf = smurf => {
 
         axios.post("http://localhost:3333/smurfs", smurf)
         .then(response => {
-            console.log(response)
+            //console.log(response)
             dispatch({type: POST_SUCCESS, data: response.data}) // POST replies with the entire state of the smurfs file
         })
         .catch(error => {
-            console.log(error)
+            //console.log(error)
             dispatch({type: POST_FAILURE, data: error})
         })
     }

@@ -7,4 +7,6 @@ export default styled.div`
     ${props => props.theme.flex}
     ${props => props.theme.borders}
     ${props => props.theme.spacing}
+
+    margin-bottom: 2%;
 `;

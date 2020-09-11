@@ -1,19 +1,19 @@
 const theme = {
     color: {
-        app: "teal",
-        section: "blue",
-        item: "purple",
+        app: "steelblue",
+        section: "royalblue",
+        item: "mediumblue",
     },
     backgroundColor: {
-        page: "red",
-        app: "orange",
-        section: "yellow",
-        item: "green",
+        page: "azure",
+        app: "lightcyan",
+        section: "paleturquoise",
+        item: "powderblue",
     },
 
-    flex: "display: flex; flex-direction: column; align-items: center;",
+    flex: "display: flex; flex-direction: column; align-items: center; justify-content: center;",
     borders: "border: 1px solid currentColor; border-radius 10px;",
-    spacing: "width: 80%; margin: 5%;",
+    spacing: "padding: 1%; width: 100%;",
 }
 
 export default theme;

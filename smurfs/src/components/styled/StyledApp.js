@@ -12,5 +12,12 @@ export default styled.div`
         ${props => props.theme.flex}
         ${props => props.theme.borders}
         ${props => props.theme.spacing}
+        width: 80%;
+
+        h1{
+            font-size: 3.6rem;
+            font-style: italic;
+            font-weight: bold;
+        }
     }
 `;

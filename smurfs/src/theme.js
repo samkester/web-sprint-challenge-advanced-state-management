@@ -13,7 +13,7 @@ const theme = {
 
     flex: "display: flex; flex-direction: column; align-items: center;",
     borders: "border: 1px solid currentColor; border-radius 10px;",
-    spacing: "margin: 5%;",
+    spacing: "width: 80%; margin: 5%;",
 }
 
 export default theme;

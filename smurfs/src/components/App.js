@@ -1,6 +1,7 @@
 //import axios from "axios";
 import React/*, { useEffect }*/ from "react";
 import "./App.css";
+import SmurfForm from "./SmurfForm";
 import SmurfList from "./SmurfList";
 import StyledApp from "./styled/StyledApp";
 
@@ -35,6 +36,7 @@ function App(){
       <div className="container">
         <h1>Smurfin' Redux</h1>
         <SmurfList />
+        <SmurfForm />
       </div>
     </StyledApp>
   );

@@ -17,9 +17,9 @@ export default function(state = initialState, action) {
             return {...state, mainState: "failed"};
         case POST_PENDING:
             return {...state, formState: "pending"};
-        case POST_FAILURE:
-            return {...state, formState: "loaded", smurfs: action.data};
         case POST_SUCCESS:
+            return {...state, formState: "loaded", smurfs: action.data};
+        case POST_FAILURE:
             return {...state, formState: "failed"};
         default:
             return state;
